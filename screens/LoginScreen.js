@@ -28,7 +28,7 @@ const LoginScreen = ({ navigation }) => {
     <KeyboardAvoidingView style={styles.container} behavior="padding">
       <StatusBar style="light" />
       <Image
-        source={require("../assets/logo1.jpg")}
+        source={require("../assets/icon.png")}
         style={{ width: 200, height: 200, borderRadius: 30 }}
       />
       <View style={styles.inputContainer}>
